@@ -1,0 +1,15 @@
+[package]
+name = "rts_interact_exp"
+version = "0.1.0"
+authors = ["key262yek <key262yek@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+# Interacting searcher
+
+[dependencies]
+rts = {path = "../rts"}
+rand = "0.7"
+rand_pcg = "0.2.1"
+rand_distr = "0.2.2"
+chrono = "0.4"
